@@ -1,0 +1,83 @@
+.container{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+h1, aside.left, aside.right, div.tex, footer{
+    text-align: center;
+}
+
+.container header{
+    flex-basis: 100%;
+    background-color: red;
+}
+
+
+.container div{
+    background-color: rgb(62, 172, 240);
+}
+
+.container aside.right{
+    background-color: pink;
+}
+.container aside.left{
+    background-color: green;
+}
+
+.container footer{
+    flex-basis: 100%;
+    background-color: rgb(83, 45, 185);
+}
+
+@media all and (min-width:992px) {
+    .container div{
+        flex-basis: 50%;
+    }
+    .container aside.left{
+        flex-basis: 25%;
+    }
+    .container aside.right{
+        flex-basis: 25%;
+    }
+    
+}
+
+@media all and (min-width:768px) and (max-width:992px){
+    .container div.text{
+        flex-basis: 75%;
+        order: 1;
+    }
+    .container aside.right{
+        flex-basis:25%;
+        order: 1;
+        justify-content: flex-end;
+    }
+    .container aside.left{
+        flex-basis: 100%;
+        order: 2;
+    }
+    footer{order:3}
+
+}
+
+@media all and (max-width:768px){
+    .container div{
+        flex-basis: 100%;
+        order: 0;
+    }
+
+    .container aside.left{
+        flex-basis: 100%;
+        order: 1;
+    }
+    
+    .container aside.right{
+        flex-basis: 100%;
+        order: 2;
+    }
+
+    .container footer{
+        order: 3;
+    }
+}
