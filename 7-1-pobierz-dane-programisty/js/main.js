@@ -7,7 +7,6 @@ $(document).ready(function(){
                 "id": "dane-programisty",
                 text: ('Imię: ' + data.imie + ', Nazwisko: ' + data.nazwisko + ', Zawód: ' + data.zawod + ', Firma: ' + data.firma)
             }).appendTo( "body" );
-            
         });
     });
 });
