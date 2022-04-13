@@ -6,7 +6,7 @@ $(document).ready(function(){
             $( "<div/>", {
                 "id": "dane-programisty",
                 text: ('Imię: ' + data.imie + ', Nazwisko: ' + data.nazwisko + ', Zawód: ' + data.zawod + ', Firma: ' + data.firma)
-            }).appendTo( "body" );
+            }).insertAfter( "button" );
         });
     });
 });
