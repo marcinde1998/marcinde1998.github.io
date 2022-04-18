@@ -1,0 +1,41 @@
+.container-header{
+    color: rgb(161, 159, 159);
+    margin:auto;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.border{
+    background-color: rgb(250, 248, 248);
+    border-radius: 100%;
+    width: 7em;
+    height: 7em;
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.my-skills{
+    justify-content: left;
+    font-size: 4em;
+    color: orange;
+    padding: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.txt{
+    top: 113%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+hr{
+    width: 30%;
+    margin:auto;
+    margin-bottom: 20px;
+}
