@@ -37,15 +37,15 @@
 }
 
 .accordion-button::after {
-    flex-shrink: none;
+    /* flex-shrink: none;
     width: none;
     height: none;
-    margin-left: auto;
+    margin-left: auto; */
     content: none;
-    background-image: none;
+    /* background-image: none;
     background-repeat: none;
     background-size: none;
-    transition: none;
+    transition: none; */
 }
 
 h1 {
@@ -62,4 +62,9 @@ hr {
 
 .text-center {
     font-family: 'Inter', sans-serif;
+}
+
+.accordion {
+    border: 2px solid;
+    border-color: rgb(185, 184, 184);
 }
